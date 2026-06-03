@@ -3,7 +3,17 @@
 > A collection of custom SVG badges designed for GitHub README profiles. Each badge features a split layout with icon + label, brand colors, rounded corners, and automatic dark/light mode support.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/power_bi.svg" height="32" alt="Power BI"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="32" alt="TypeScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="32" alt="React"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="32" alt="Angular"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="32" alt="Astro"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="32" alt="Bootstrap"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
 </p>
 
 ---
@@ -23,16 +33,43 @@
 Just reference the raw file directly in your README:
 
 ```html
-<img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/power_bi.svg" height="32" alt="Power BI"/>
+<img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+```
+
+Or combine several in a row:
+
+```html
+<p>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+</p>
 ```
 
 ---
 
 ## 📦 Available Badges
 
+### 🌐 Frontend
+
 | Preview | File | Technology |
 |:-------:|------|------------|
-| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/power_bi.svg" height="28"/> | `power_bi.svg` | Microsoft Power BI |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="28"/> | `assets/html.svg` | HTML5 |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="28"/> | `assets/css.svg` | CSS3 |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="28"/> | `assets/javascript.svg` | JavaScript |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="28"/> | `assets/typescript.svg` | TypeScript |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="28"/> | `assets/react.svg` | React |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="28"/> | `assets/angular.svg` | Angular |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="28"/> | `assets/astro.svg` | Astro |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="28"/> | `assets/bootstrap.svg` | Bootstrap |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="28"/> | `assets/tailwind.svg` | Tailwind CSS |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="28"/> | `assets/jquery.svg` | jQuery |
+
+### 📊 Data & Analytics
+
+| Preview | File | Technology |
+|:-------:|------|------------|
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="28"/> | `assets/power_bi.svg` | Microsoft Power BI |
 
 > More badges coming soon!
 
