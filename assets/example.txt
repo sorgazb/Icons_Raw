@@ -1,38 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32">
-  <defs>
-    <style>
-      .bg-left { fill: #0d1117; }
-      .bg-right { fill: #F2C811; }
-      .border { fill: none; stroke: #F2C811; stroke-width: 1.5; }
-      .divider { stroke: #F2C811; stroke-width: 1; opacity: 0.5; }
-      .label { fill: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; font-weight: 600; }
+# Icons Raw — Usage Examples
+# Copy any snippet below into your README.md
 
-      @media (prefers-color-scheme: light) {
-        .bg-left { fill: #ffffff; }
-        .bg-right { fill: #F2C811; }
-        .label { fill: #000000; }
-      }
-    </style>
-    <clipPath id="pill">
-      <rect width="130" height="32" rx="6" ry="6"/>
-    </clipPath>
-  </defs>
+## Single badge
+<img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
 
-  <!-- Fondo izquierda (logo) -->
-  <rect x="0" y="0" width="38" height="32" class="bg-left" clip-path="url(#pill)"/>
+## Frontend row
+<p>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="32" alt="TypeScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="32" alt="React"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="32" alt="Angular"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="32" alt="Astro"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="32" alt="Bootstrap"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
+</p>
 
-  <!-- Fondo derecha (texto) -->
-  <rect x="38" y="0" width="92" height="32" class="bg-right" clip-path="url(#pill)"/>
+## Backend & Languages row
+<p>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="32" alt="Java"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="32" alt="C++"/>
+</p>
 
-  <!-- Borde exterior pill -->
-  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border"/>
+## Data & Analytics row
+<p>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
+</p>
 
-  <!-- Línea divisoria vertical -->
-  <line x1="38" y1="4" x2="38" y2="28" class="divider"/>
-
-  <!-- Logo Power BI (SVG incrustado, centrado en bloque izquierdo) -->
-  <image href="data:image/svg+xml;base64," x="7" y="4" width="24" height="24"/>
-
-  <!-- Texto -->
-  <text x="84" y="20.5" text-anchor="middle" class="label">HTML</text>
-</svg>
+## All badges
+<p>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="32" alt="TypeScript"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="32" alt="React"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="32" alt="Angular"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="32" alt="Astro"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="32" alt="Bootstrap"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="32" alt="Java"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="32" alt="C++"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
+</p>
