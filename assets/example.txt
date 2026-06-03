@@ -1,47 +1,53 @@
-# Icons Raw — Usage Examples
-# Copy any snippet below into your README.md
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32">
+  <defs>
+    <style>
+    @font-face {
+      font-family: 'Press Start 2P';
+      font-style: normal;
+      font-weight: 400;
+      src: url('data:font/truetype;base64,AQUI_EL_BASE64_DE_LA_FUENTE') format('truetype');
+    }
+    .bg      { fill: #0d1117; }
+    .border  { fill: none; stroke: BRANDCOLOR; stroke-width: 1.5; }
+    .divider { stroke: BRANDCOLOR; stroke-width: 1; opacity: 0.4; }
+    .label   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; font-weight: 400; }
+    .glow1   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; font-weight: 400; opacity: 0.6; }
+    .glow2   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; font-weight: 400; opacity: 0.3; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #ffffff; }
+    }
+    </style>
+    <filter id="neon-sm" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="b1"/>
+      <feMerge><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neon-lg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="pill">
+      <rect width="130" height="32" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
 
-## Single badge
-<img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="130" height="32" class="bg" clip-path="url(#pill)"/>
 
-## Frontend row
-<p>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="32" alt="TypeScript"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="32" alt="React"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="32" alt="Angular"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="32" alt="Astro"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="32" alt="Bootstrap"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
-</p>
+  <!-- Subtle brand tint on right block -->
+  <rect x="38" y="0" width="92" height="32" fill="BRANDCOLOR" fill-opacity="0.08" clip-path="url(#pill)"/>
 
-## Backend & Languages row
-<p>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="32" alt="Java"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="32" alt="C++"/>
-</p>
+  <!-- Neon border -->
+  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border" filter="url(#neon-sm)"/>
+  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border"/>
 
-## Data & Analytics row
-<p>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
-</p>
+  <!-- Divider -->
+  <line x1="38" y1="4" x2="38" y2="28" class="divider"/>
 
-## All badges
-<p>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/html.svg" height="32" alt="HTML"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/css.svg" height="32" alt="CSS"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/javascript.svg" height="32" alt="JavaScript"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/typescript.svg" height="32" alt="TypeScript"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/react.svg" height="32" alt="React"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/angular.svg" height="32" alt="Angular"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/astro.svg" height="32" alt="Astro"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/bootstrap.svg" height="32" alt="Bootstrap"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="32" alt="Java"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="32" alt="C++"/>
-  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
-</p>
+  <!-- Logo: sustituir BASE64_LOGO por el base64 del icono SVG -->
+  <image href="data:image/svg+xml;base64,BASE64_LOGO" x="7" y="4" width="24" height="24"/>
+
+  <!-- Neon text -->
+  <text x="84" y="20" text-anchor="middle" class="glow2" filter="url(#neon-lg)">NOMBRE_TECNOLOGIA</text>
+  <text x="84" y="20" text-anchor="middle" class="glow1" filter="url(#neon-sm)">NOMBRE_TECNOLOGIA</text>
+  <text x="84" y="20" text-anchor="middle" class="label">NOMBRE_TECNOLOGIA</text>
+</svg>
