@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32">
+  <defs>
+    <style>
+      .bg-left { fill: #0d1117; }
+      .bg-right { fill: #3178C6; }
+      .border { fill: none; stroke: #3178C6; stroke-width: 1.5; }
+      .divider { stroke: #3178C6; stroke-width: 1; opacity: 0.5; }
+      .label { fill: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; font-weight: 600; }
+
+      @media (prefers-color-scheme: light) {
+        .bg-left { fill: #ffffff; }
+        .bg-right { fill: #3178C6; }
+        .label { fill: #000000; }
+      }
+    </style>
+    <clipPath id="pill">
+      <rect width="130" height="32" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo izquierda (logo) -->
+  <rect x="0" y="0" width="38" height="32" class="bg-left" clip-path="url(#pill)"/>
+
+  <!-- Fondo derecha (texto) -->
+  <rect x="38" y="0" width="92" height="32" class="bg-right" clip-path="url(#pill)"/>
+
+  <!-- Borde exterior pill -->
+  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border"/>
+
+  <!-- Línea divisoria vertical -->
+  <line x1="38" y1="4" x2="38" y2="28" class="divider"/>
+
+  <!-- Logo Power BI (SVG incrustado, centrado en bloque izquierdo) -->
+  <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIyLjg4IDEyMi44OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIyLjg4IDEyMi44OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6IzAwN0FDQzt9IC5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0wLDYxLjQ0VjBoMTIyLjg4djEyMi44OEgwVjYxLjQ0TDAsNjEuNDR6IE0wLDYxLjQ0TDAsNjEuNDRMMCw2MS40NEwwLDYxLjQ0eiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yNi45NCw2MS42NXY1LjAxaDE1Ljk3djQ1LjQ3aDExLjM0VjY2LjY2aDE1Ljk3di00LjkyYzAtMi43NiwwLTUuMDEtMC4xMi01LjA3YzAtMC4wOS05Ljc0LTAuMTItMjEuNTctMC4xMiBsLTIxLjUsMC4wOXY1LjA0TDI2Ljk0LDYxLjY1TDI2Ljk0LDYxLjY1TDI2Ljk0LDYxLjY1eiBNOTguNzMsNTYuNTJjMy4xMywwLjc0LDUuNTMsMi4xNSw3LjY4LDQuMzljMS4xNCwxLjIzLDIuODMsMy4zOCwyLjk1LDMuOTMgYzAsMC4xOC01LjMxLDMuNzgtOC41NCw1Ljc4Yy0wLjEyLDAuMDktMC42MS0wLjQzLTEuMTEtMS4yM2MtMS42LTIuMjctMy4yMy0zLjI2LTUuNzgtMy40NGMtMy42OS0wLjI1LTYuMTQsMS42OS02LjE0LDQuOTEgYzAsMC45OCwwLjE4LDEuNTQsMC41NSwyLjMzYzAuODMsMS42OSwyLjM3LDIuNyw3LjEzLDQuNzljOC43OSwzLjc4LDEyLjYsNi4yNywxNC45LDkuODNjMi42MSwzLjk5LDMuMTksMTAuMjYsMS40NCwxNC45NiBjLTEuOTcsNS4xMy02Ljc2LDguNi0xMy42MSw5Ljc0Yy0yLjE1LDAuMzctNy4wNywwLjMxLTkuMzctMC4wOWMtNC45MS0wLjkyLTkuNjItMy4zOC0xMi41LTYuNTRjLTEuMTQtMS4yMy0zLjMyLTQuNTItMy4xOS00LjczIGwxLjE3LTAuNzRsNC42MS0yLjY3bDMuNDctMi4wM2wwLjgsMS4wOGMxLjAxLDEuNiwzLjI5LDMuNzUsNC42MSw0LjQ5YzMuOTksMi4wNiw5LjM0LDEuNzgsMTEuOTgtMC42MSBjMS4xNC0xLjA0LDEuNjMtMi4xNSwxLjYzLTMuNjljMC0xLjQxLTAuMjItMi4wNi0wLjkyLTMuMTNjLTAuOTgtMS4zNS0yLjk1LTIuNDYtOC40OC00LjkxYy02LjM2LTIuNy05LjA2LTQuNDItMTEuNTgtNy4wNyBjLTEuNDQtMS42LTIuNzYtNC4wOS0zLjM4LTYuMTRjLTAuNDYtMS43OC0wLjYxLTYuMTQtMC4xOC03LjljMS4zMi02LjE0LDUuOTYtMTAuNDQsMTIuNi0xMS42N2MyLjE1LTAuNDMsNy4yMi0wLjI1LDkuMzQsMC4zMSBMOTguNzMsNTYuNTJMOTguNzMsNTYuNTJMOTguNzMsNTYuNTJ6Ii8+PC9nPjwvc3ZnPg==" x="7" y="4" width="24" height="24"/>
+
+  <!-- Texto -->
+  <text x="84" y="20.5" text-anchor="middle" class="label">TypeScript</text>
+</svg>
