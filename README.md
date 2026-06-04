@@ -22,6 +22,7 @@
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/nodejs.svg" height="32" alt="Node.js"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/gin.svg" height="32" alt="Gin"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/echo.svg" height="32" alt="Echo"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/beautifulsoup.svg" height="32" alt="BeautifulSoup"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
 </p>
 
@@ -88,6 +89,13 @@ Combine several in a row:
 | <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/nodejs.svg" height="28"/> | `assets/nodejs.svg` | Node.js |
 | <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/gin.svg" height="28"/> | `assets/gin.svg` | Gin |
 | <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/echo.svg" height="28"/> | `assets/echo.svg` | Echo |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/beautifulsoup.svg" height="28"/> | `assets/beautifulsoup.svg` | BeautifulSoup |
+
+### 🕷️ Web Scraping
+
+| Preview | File | Technology |
+|:-------:|------|------------|
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/beautifulsoup.svg" height="28"/> | `assets/beautifulsoup.svg` | BeautifulSoup |
 
 ### 📊 Data & Analytics
 
