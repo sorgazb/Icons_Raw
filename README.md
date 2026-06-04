@@ -14,7 +14,14 @@
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/tailwind.svg" height="32" alt="Tailwind"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/jquery.svg" height="32" alt="jQuery"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="32" alt="C++"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/csharp.svg" height="32" alt="C#"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="32" alt="Java"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/go.svg" height="32" alt="Go"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/php.svg" height="32" alt="PHP"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/python.svg" height="32" alt="Python"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/nodejs.svg" height="32" alt="Node.js"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/gin.svg" height="32" alt="Gin"/>
+  <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/echo.svg" height="32" alt="Echo"/>
   <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/power_bi.svg" height="32" alt="Power BI"/>
 </p>
 
@@ -74,6 +81,13 @@ Combine several in a row:
 |:-------:|------|------------|
 | <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/java.svg" height="28"/> | `assets/java.svg` | Java |
 | <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/cplusplus.svg" height="28"/> | `assets/cplusplus.svg` | C++ |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/csharp.svg" height="28"/> | `assets/csharp.svg` | C# |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/go.svg" height="28"/> | `assets/go.svg` | Go |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/php.svg" height="28"/> | `assets/php.svg` | PHP |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/python.svg" height="28"/> | `assets/python.svg` | Python |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/nodejs.svg" height="28"/> | `assets/nodejs.svg` | Node.js |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/gin.svg" height="28"/> | `assets/gin.svg` | Gin |
+| <img src="https://raw.githubusercontent.com/sorgazb/Icons_Raw/main/assets/echo.svg" height="28"/> | `assets/echo.svg` | Echo |
 
 ### 📊 Data & Analytics
 
@@ -87,41 +101,7 @@ Combine several in a row:
 
 ## 🛠️ Create Your Own
 
-Template SVG structure — change `BRANDCOLOR`, `BASE64_LOGO` and `Label`:
-
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32">
-  <defs>
-    <style>
-      @font-face {
-        font-family: 'Press Start 2P';
-        src: url('data:font/truetype;base64,BASE64_FONT_HERE') format('truetype');
-      }
-      .bg      { fill: #0d1117; }
-      .border  { fill: none; stroke: BRANDCOLOR; stroke-width: 1.5; }
-      .divider { stroke: BRANDCOLOR; stroke-width: 1; opacity: 0.4; }
-      .label   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; }
-      .glow1   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; opacity: 0.6; }
-      .glow2   { fill: BRANDCOLOR; font-family: 'Press Start 2P', monospace; font-size: 7px; opacity: 0.3; }
-      @media (prefers-color-scheme: light) { .bg { fill: #ffffff; } }
-    </style>
-    <filter id="neon-sm"><feGaussianBlur stdDeviation="1.5" result="b1"/>
-      <feMerge><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="neon-lg"><feGaussianBlur stdDeviation="3.5" result="b2"/>
-      <feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="pill"><rect width="130" height="32" rx="6" ry="6"/></clipPath>
-  </defs>
-  <rect x="0" y="0" width="130" height="32" class="bg" clip-path="url(#pill)"/>
-  <rect x="38" y="0" width="92" height="32" fill="BRANDCOLOR" fill-opacity="0.08" clip-path="url(#pill)"/>
-  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border" filter="url(#neon-sm)"/>
-  <rect x="0.75" y="0.75" width="128.5" height="30.5" rx="5.5" ry="5.5" class="border"/>
-  <line x1="38" y1="4" x2="38" y2="28" class="divider"/>
-  <image href="data:image/svg+xml;base64,BASE64_LOGO" x="7" y="4" width="24" height="24"/>
-  <text x="84" y="20" text-anchor="middle" class="glow2" filter="url(#neon-lg)">Label</text>
-  <text x="84" y="20" text-anchor="middle" class="glow1" filter="url(#neon-sm)">Label</text>
-  <text x="84" y="20" text-anchor="middle" class="label">Label</text>
-</svg>
-```
+Template SVG structure — change `BRANDCOLOR`, `BASE64_LOGO` and `Label`. Full template available in [`assets/example.txt`](https://github.com/sorgazb/Icons_Raw/blob/main/assets/example.txt).
 
 ---
 
